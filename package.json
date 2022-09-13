@@ -10,6 +10,9 @@
   "workspaces": {
     "packages": [
       "packages/*"
+    ],
+    "nohoist": [
+      "react-18/@storybook/react"
     ]
   },
   "author": "",
@@ -18,13 +21,13 @@
     "react": "^16",
     "react-dom": "^16",
     "esbuild": "^0.15.7",
-    "@storybook/addon-actions": "6.5.10",
-    "@storybook/addon-essentials": "6.5.10",
-    "@storybook/addon-interactions": "6.5.10",
-    "@storybook/addon-links": "6.5.10",
-    "@storybook/builder-webpack4": "6.5.10",
-    "@storybook/manager-webpack4": "6.5.10",
-    "@storybook/react": "6.5.10",
+    "@storybook/addon-actions": "^6.5.11",
+    "@storybook/addon-essentials": "^6.5.11",
+    "@storybook/addon-interactions": "^6.5.11",
+    "@storybook/addon-links": "^6.5.11",
+    "@storybook/builder-webpack4": "^6.5.11",
+    "@storybook/manager-webpack4": "^6.5.11",
+    "@storybook/react": "^6.5.11",
     "@storybook/testing-library": "^0.0.13",
     "@babel/core": "^7.19.0",
     "babel-loader": "^8.2.5"
