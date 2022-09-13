@@ -1,0 +1,32 @@
+{
+  "name": "nohoist-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^16",
+    "react-dom": "^16",
+    "esbuild": "^0.15.7",
+    "@storybook/addon-actions": "6.5.10",
+    "@storybook/addon-essentials": "6.5.10",
+    "@storybook/addon-interactions": "6.5.10",
+    "@storybook/addon-links": "6.5.10",
+    "@storybook/builder-webpack4": "6.5.10",
+    "@storybook/manager-webpack4": "6.5.10",
+    "@storybook/react": "6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@babel/core": "^7.19.0",
+    "babel-loader": "^8.2.5"
+  }
+}
